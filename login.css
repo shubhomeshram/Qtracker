@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-form{
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 25%;
+    right: 500px;
+    border-radius: 50px;
+    box-shadow: -6px -6px 15px whitesmoke;
+}
+input{
+    width: 90%;
+    margin-top: 20px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.lgn{
+    font-family: Arial Black;
+    color: black;
+}
+.lgnbtn{
+    border: none;
+    background-color: aliceblue;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: arial black;
+}
